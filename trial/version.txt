@@ -1,1 +1,6 @@
-{"version":"0.0.0","url":"","installer":"","notes":"placeholder"}
+{
+  "version": "1.8.26-trial.14",
+  "url": "https://github.com/ManTreeJoe/linguar-hub-releases/releases/tag/v1.8.26-trial.14",
+  "installer": "https://github.com/ManTreeJoe/linguar-hub-releases/releases/download/untagged-1e3bed3cd8be32e21e28/Linguar-Hub-Trial-Setup-1.8.26-trial.14.exe",
+  "notes": "Trial test build 1.8.26-trial.14\n"
+}
