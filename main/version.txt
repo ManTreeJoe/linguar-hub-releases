@@ -1,0 +1,6 @@
+{
+  "version": "1.8.26",
+  "url": "https://github.com/ManTreeJoe/Servpro-Ems-Tools/releases/tag/v1.8.26",
+  "installer": "https://github.com/ManTreeJoe/Servpro-Ems-Tools/releases/download/v1.8.26/Linguar-Hub-Setup-1.8.26.exe",
+  "notes": "Multi-activity Job Logs with crew assignments and subcontractors; compact logs and Snapshots from saved entries; floating activity picker; quieter automatic file checks and unified loading indicators; improved notification tabs, unread counts, reactions, CompanyCam relinking and editable profiles; optional Windows alerts for your personal OneLoss inbox."
+}
