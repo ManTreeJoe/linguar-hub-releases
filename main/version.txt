@@ -1,6 +1,6 @@
 {
-  "version": "1.8.34",
-  "url": "https://github.com/ManTreeJoe/linguar-hub-releases/releases/tag/v1.8.34",
-  "installer": "https://github.com/ManTreeJoe/linguar-hub-releases/releases/download/v1.8.34/Linguar-Hub-Setup-1.8.34.exe",
-  "notes": "OneLoss 1.8.34 \u2014 Connected cards\n\nAdministrators can open More > Connected cards from a job.\nSearch saved cards and jobs, connect EMS/Contents/Recon cards, review association transfers, and preview duplicate-job merges.\nEvery transfer or merge requires review and explicit confirmation. Conflicting facts and unsupported references block the operation.\nMain database support is installed. Existing jobs and links were preserved.\nNo automatic duplicate merges, Trello writes, or unrelated Dev features are included.\nIncludes the existing 1.8.33 fixes. Installer is not code-signed.\n"
+  "version": "1.8.35",
+  "url": "https://github.com/ManTreeJoe/linguar-hub-releases/releases/tag/v1.8.35",
+  "installer": "https://github.com/ManTreeJoe/linguar-hub-releases/releases/download/v1.8.35/Linguar-Hub-Setup-1.8.35.exe",
+  "notes": "OneLoss 1.8.35 \u2014 Job workspace polish\n\n- Switching EMS, Contents and Recon retains the job dialog shell while selected-card details load. Older responses cannot overwrite the selected card.\n- Comments composer sits above the feed, with compact Post and magnifying-glass search controls. All/Pinned stays immediately below the composer.\n- Search and rich-text fields keep their outer focus highlight without a second inner rectangle.\n- Existing Connected cards administrator workflow from 1.8.34 remains available under More.\n\nNo database migrations, automatic job merges, or changes to integration settings. Unfinished Dev-only insurance and board features are excluded. Installer is not code-signed.\n"
 }
