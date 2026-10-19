@@ -1,6 +1,6 @@
 {
-  "version": "1.8.35",
-  "url": "https://github.com/ManTreeJoe/linguar-hub-releases/releases/tag/v1.8.35",
-  "installer": "https://github.com/ManTreeJoe/linguar-hub-releases/releases/download/v1.8.35/Linguar-Hub-Setup-1.8.35.exe",
-  "notes": "OneLoss 1.8.35 \u2014 Job workspace polish\n\n- Switching EMS, Contents and Recon retains the job dialog shell while selected-card details load. Older responses cannot overwrite the selected card.\n- Comments composer sits above the feed, with compact Post and magnifying-glass search controls. All/Pinned stays immediately below the composer.\n- Search and rich-text fields keep their outer focus highlight without a second inner rectangle.\n- Existing Connected cards administrator workflow from 1.8.34 remains available under More.\n\nNo database migrations, automatic job merges, or changes to integration settings. Unfinished Dev-only insurance and board features are excluded. Installer is not code-signed.\n"
+  "version": "1.8.36",
+  "url": "https://github.com/ManTreeJoe/linguar-hub-releases/releases/tag/v1.8.36",
+  "installer": "https://github.com/ManTreeJoe/linguar-hub-releases/releases/download/v1.8.36/Linguar-Hub-Setup-1.8.36.exe",
+  "notes": "OneLoss 1.8.36\n\n- Smaller, cleaner notification popups with retained error details.\n- Unified notifications with direct opening of the linked job and comment.\n- Simplified sidebar and more controls for opening work in separate windows.\n- Improved comment editing, draft retention and offline job details.\n- Forms library, job information and import workflow improvements.\n- Error reporting includes safe job, section and tool context.\n"
 }
