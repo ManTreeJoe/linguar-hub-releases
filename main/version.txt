@@ -1,6 +1,6 @@
 {
-  "version": "1.8.39",
-  "url": "https://github.com/ManTreeJoe/linguar-hub-releases/releases/tag/v1.8.39",
-  "installer": "https://github.com/ManTreeJoe/linguar-hub-releases/releases/download/v1.8.39/Linguar-Hub-Setup-1.8.39.exe",
-  "notes": "OneLoss 1.8.39 \u2014 Comment posting hotfix\n\nFixes comments being blocked across all jobs after background reads remember an unavailable optional legacy table.\nThe cached result now preserves the same verified error type as the original response, allowing the intended Trello posting path.\nOnly confirmed missing-table responses are cached. Permission failures, timeouts and uncertain writes never enable a fallback post.\nIncludes the 1.8.38 Job Log delivery fixes.\n\nBuilt from the exact 1.8.38 snapshot with only the pipeline_store.py correction.\n95 focused automated tests passed. No permissions, database schema, or user account changes.\nSam's computer still needs post-update confirmation with a single comment.\n"
+  "version": "1.8.40",
+  "url": "https://github.com/ManTreeJoe/linguar-hub-releases/releases/tag/v1.8.40",
+  "installer": "https://github.com/ManTreeJoe/linguar-hub-releases/releases/download/v1.8.40/Linguar-Hub-Setup-1.8.40.exe",
+  "notes": "OneLoss 1.8.40 \u2014 Unified file imports\n\nImport files is now the single entry point for local files, CompanyCam photos and Trello attachments.\nCompanyCam and Trello galleries support grouped selection, image previews and destination review before importing.\nCompanyCam quick import avoids waiting for every photo's tags. Optional tag-based organization remains available.\nCompleted CompanyCam imports no longer add a status-screen step when reopening the gallery.\nAdds right-click text editing support, a smaller comments header and compact job-link controls.\nAdds notification sound choices.\nRetains the 1.8.38 Job Log and 1.8.39 comment-posting fixes.\n\nKnown limitation: older Trello downloads without attachment IDs in their filenames may not be recognized as duplicates.\nAutomated checks use controlled fixtures; they do not post comments or import customer files.\n"
 }
