@@ -1,6 +1,6 @@
 {
-  "version": "1.8.36",
-  "url": "https://github.com/ManTreeJoe/linguar-hub-releases/releases/tag/v1.8.36",
-  "installer": "https://github.com/ManTreeJoe/linguar-hub-releases/releases/download/v1.8.36/Linguar-Hub-Setup-1.8.36.exe",
-  "notes": "OneLoss 1.8.36\n\n- Smaller, cleaner notification popups with retained error details.\n- Unified notifications with direct opening of the linked job and comment.\n- Simplified sidebar and more controls for opening work in separate windows.\n- Improved comment editing, draft retention and offline job details.\n- Forms library, job information and import workflow improvements.\n- Error reporting includes safe job, section and tool context.\n"
+  "version": "1.8.37",
+  "url": "https://github.com/ManTreeJoe/linguar-hub-releases/releases/tag/v1.8.37",
+  "installer": "https://github.com/ManTreeJoe/linguar-hub-releases/releases/download/v1.8.37/Linguar-Hub-Setup-1.8.37.exe",
+  "notes": "OneLoss 1.8.37\n\n- Cleaner notifications grouped by job, with All/Mentions views and remembered board filters.\n- Click a comment to open its card; Show more keeps the notification unread.\n- Read status updates after the card opens, with a small manual read/unread control.\n- Archived/unarchived activity is visible; moves no longer show an unknown source as a question mark.\n- Improved comment delivery, editing and draft retention.\n- Improved live board refresh and locally bundled Trello board backgrounds.\n- Safer diagnostic reporting for connection failures, with anonymous device and job/tool context.\n\nExperimental identity/reconciliation tools remain disabled on Main. This installer does not reorganize job folders or merge job records. Installer is not code-signed.\n"
 }
