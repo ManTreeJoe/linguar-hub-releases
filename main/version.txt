@@ -1,6 +1,6 @@
 {
-  "version": "1.8.38",
-  "url": "https://github.com/ManTreeJoe/linguar-hub-releases/releases/tag/v1.8.38",
-  "installer": "https://github.com/ManTreeJoe/linguar-hub-releases/releases/download/v1.8.38/Linguar-Hub-Setup-1.8.38.exe",
-  "notes": "OneLoss 1.8.38 \u2014 Job Log delivery hotfix\n\n- Restores pending Job Log comment delivery when the optional legacy shared queue is unavailable.\n- Starts background delivery immediately after a new Job Log is saved without making the editor wait.\n- Checks the saved entry's Trello acknowledgement before sending, preventing reposts after reviewed recovery.\n- Preserves held/uncertain deliveries and the base-office boundary.\n- Outbound Job Logs are attempted before unrelated Contents provisioning.\n\nBuilt from the exact 1.8.37 source snapshot with only the pipeline delivery hotfix.\nNo database migration. Unfinished Dev interface/import changes are excluded.\nValidated with 51 focused automated tests. Native installed-app end-to-end validation remains pending.\n"
+  "version": "1.8.39",
+  "url": "https://github.com/ManTreeJoe/linguar-hub-releases/releases/tag/v1.8.39",
+  "installer": "https://github.com/ManTreeJoe/linguar-hub-releases/releases/download/v1.8.39/Linguar-Hub-Setup-1.8.39.exe",
+  "notes": "OneLoss 1.8.39 \u2014 Comment posting hotfix\n\nFixes comments being blocked across all jobs after background reads remember an unavailable optional legacy table.\nThe cached result now preserves the same verified error type as the original response, allowing the intended Trello posting path.\nOnly confirmed missing-table responses are cached. Permission failures, timeouts and uncertain writes never enable a fallback post.\nIncludes the 1.8.38 Job Log delivery fixes.\n\nBuilt from the exact 1.8.38 snapshot with only the pipeline_store.py correction.\n95 focused automated tests passed. No permissions, database schema, or user account changes.\nSam's computer still needs post-update confirmation with a single comment.\n"
 }
