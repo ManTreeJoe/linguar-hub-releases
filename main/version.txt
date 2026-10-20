@@ -1,6 +1,6 @@
 {
-  "version": "1.8.37",
-  "url": "https://github.com/ManTreeJoe/linguar-hub-releases/releases/tag/v1.8.37",
-  "installer": "https://github.com/ManTreeJoe/linguar-hub-releases/releases/download/v1.8.37/Linguar-Hub-Setup-1.8.37.exe",
-  "notes": "OneLoss 1.8.37\n\n- Cleaner notifications grouped by job, with All/Mentions views and remembered board filters.\n- Click a comment to open its card; Show more keeps the notification unread.\n- Read status updates after the card opens, with a small manual read/unread control.\n- Archived/unarchived activity is visible; moves no longer show an unknown source as a question mark.\n- Improved comment delivery, editing and draft retention.\n- Improved live board refresh and locally bundled Trello board backgrounds.\n- Safer diagnostic reporting for connection failures, with anonymous device and job/tool context.\n\nExperimental identity/reconciliation tools remain disabled on Main. This installer does not reorganize job folders or merge job records. Installer is not code-signed.\n"
+  "version": "1.8.38",
+  "url": "https://github.com/ManTreeJoe/linguar-hub-releases/releases/tag/v1.8.38",
+  "installer": "https://github.com/ManTreeJoe/linguar-hub-releases/releases/download/v1.8.38/Linguar-Hub-Setup-1.8.38.exe",
+  "notes": "OneLoss 1.8.38 \u2014 Job Log delivery hotfix\n\n- Restores pending Job Log comment delivery when the optional legacy shared queue is unavailable.\n- Starts background delivery immediately after a new Job Log is saved without making the editor wait.\n- Checks the saved entry's Trello acknowledgement before sending, preventing reposts after reviewed recovery.\n- Preserves held/uncertain deliveries and the base-office boundary.\n- Outbound Job Logs are attempted before unrelated Contents provisioning.\n\nBuilt from the exact 1.8.37 source snapshot with only the pipeline delivery hotfix.\nNo database migration. Unfinished Dev interface/import changes are excluded.\nValidated with 51 focused automated tests. Native installed-app end-to-end validation remains pending.\n"
 }
