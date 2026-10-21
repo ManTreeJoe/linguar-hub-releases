@@ -1,6 +1,6 @@
 {
-  "version": "1.8.42",
-  "url": "https://github.com/ManTreeJoe/linguar-hub-releases/releases/tag/v1.8.42",
-  "installer": "https://github.com/ManTreeJoe/linguar-hub-releases/releases/download/v1.8.42/Linguar-Hub-Setup-1.8.42.exe",
-  "notes": "Restores comment-editor right-click tools and native spellcheck after reloads.\nPosted comments now show clipboard actions first, with Link to audit opening the audit list on demand.\nFixes right-click menus inside pop-up dialogs and keeps Escape from closing the underlying dialog.\n"
+  "version": "1.8.43",
+  "url": "https://github.com/ManTreeJoe/linguar-hub-releases/releases/tag/v1.8.43",
+  "installer": "https://github.com/ManTreeJoe/linguar-hub-releases/releases/download/v1.8.43/Linguar-Hub-Setup-1.8.43.exe",
+  "notes": "OneLoss Main 1.8.43\n\n- Keeps Trello card positions available for board ordering.\n- Reads populated Account Info when a card's customer template is blank.\n- Registers eligible new EMS/Contents cards when opened, with exact-link safety checks.\n- Supports shared Recon boards across IE and OC while verifying office access.\n- Simplifies self-pay paperwork and removes the duplicate Job requirements display; checklists remain available.\n- Displays DocuSketch folder evidence alongside other paperwork checks.\n- Refreshes open-job paperwork after file imports.\n- Adds Initial video viewer to the CompanyCam menu, using the job's saved video link.\n- Improves import/report tool pop-outs and preserves the selected division.\n- Allows closing photo reports during loading or preview, with unsaved-change protection.\n- Allows clicking outside supported tool dialogs to return to the previous window.\n- Distinguishes Awaiting scheduling and Status not verified from Scheduled.\n\nAmbiguous card links and unresolved work-status reconciliation remain unchanged.\n"
 }
