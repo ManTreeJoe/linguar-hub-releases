@@ -1,6 +1,6 @@
 {
-  "version": "1.8.45",
-  "url": "https://github.com/ManTreeJoe/linguar-hub-releases/releases/tag/v1.8.45",
-  "installer": "https://github.com/ManTreeJoe/linguar-hub-releases/releases/download/v1.8.45/Linguar-Hub-Setup-1.8.45.exe",
-  "notes": "OneLoss Main 1.8.45\n\n- Fix Job Log saves for renamed cards and separate-unit jobs. Related job actions use the exact linked card instead of guessing from its title.\n- Show every thread comment newest first, including the original message.\n- Mark card notifications read when its details successfully open.\n- Improve linked EMS/WIP/Estimating copies and record field-work completion when moving to Estimating.\n- Reject cached folder details belonging to another customer.\n- Keep Recon link-only: do not create Recon cards automatically.\n- Improve management-company contact details, job header layout, and pencil name editing. Move Forms to Requirements.\n- Improve client assignment/search, shared lane colors, checklist defaults, file browsing and photo reports.\n- Improve the uploaded Resources/forms library and support mapping existing PDF fields.\n\nExisting data and permissions are retained. Experimental card-scoped insurance remains disabled on Main.\n"
+  "version": "1.8.46",
+  "url": "https://github.com/ManTreeJoe/linguar-hub-releases/releases/tag/v1.8.46",
+  "installer": "https://github.com/ManTreeJoe/linguar-hub-releases/releases/download/v1.8.46/Linguar-Hub-Setup-1.8.46.exe",
+  "notes": "OneLoss Main 1.8.46\n\n- Refresh the Jobs board layout, navigation spacing, and loading placeholders.\n- Improve paperwork detection, including ATP files in common EMS document folders.\n- Show reviewable Trello description details in the job Overview.\n- Improve notification and background sync feedback.\n\nThe new unified comment delivery system is not included.\n"
 }
