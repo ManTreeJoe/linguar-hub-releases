@@ -1,6 +1,6 @@
 {
-  "version": "1.8.47",
-  "url": "https://github.com/ManTreeJoe/linguar-hub-releases/releases/tag/v1.8.47",
-  "installer": "https://github.com/ManTreeJoe/linguar-hub-releases/releases/download/v1.8.47/Linguar-Hub-Setup-1.8.47.exe",
-  "notes": "OneLoss Main 1.8.47\n\n- Correct customer information and adjuster names read from Trello descriptions.\n- Preserve deliberate local clears when previewing card details.\n- Mark a card\u2019s Trello and OneLoss notifications read from its header.\n\nThe new unified comment delivery system is not included.\n"
+  "version": "1.8.48",
+  "url": "https://github.com/ManTreeJoe/linguar-hub-releases/releases/tag/v1.8.48",
+  "installer": "https://github.com/ManTreeJoe/linguar-hub-releases/releases/download/v1.8.48/Linguar-Hub-Setup-1.8.48.exe",
+  "notes": "OneLoss Main 1.8.48 \u2014 server and private-download transition\n\n- Move existing hosted Main connections to api.oneloss.work.\n- Preserve personal folder settings and keep a protected local recovery copy.\n- Require a fresh sign-in with the existing Main account after migration.\n- Add updates.oneloss.work version checks with GitHub fallback.\n- Open private installer downloads in the browser for approved work-email verification.\n- Keep direct desktop Trello posting paused during this rollout. Server board reads continue.\n\nBased on the published 1.8.47 release snapshot. Does not include the separate unified-comment work.\nExisting GitHub update delivery remains supported. Only the eight approved IE account emails can enter the new download portal.\n"
 }
